@@ -11,10 +11,12 @@
     box-sizing: border-box;
     font-family: 'Verdana', Geneva, Tahoma, sans-serif;
 }
-*::selection{
+
+*::selection {
     color: black;
     background: white;
 }
+
 html,
 body {
     height: 100%;
@@ -45,6 +47,7 @@ main {
     justify-content: space-around;
     gap: 3vw;
 }
+
 .menuHeadings {
     display: none;
     transition: all ease 0.3s;
@@ -55,6 +58,7 @@ main {
     border-radius: 20px;
     text-decoration: none;
 }
+
 .menuHeadings:hover {
     scale: 1.05;
     box-shadow: 0 0 15px 5px rgba(105, 108, 255, 0.8);
@@ -88,6 +92,7 @@ nav button:hover {
     transform: scale(1.1);
     box-shadow: 0 0 15px 5px rgba(105, 108, 255, 0.8);
 }
+
 .resumeBtn {
     color: var(--text-color);
     padding: 5px 20px;
@@ -100,11 +105,13 @@ nav button:hover {
     background-color: transparent;
     text-decoration: none;
 }
+
 .resumeBtn:hover {
     scale: 1.05;
     box-shadow: 0 0 15px 5px rgba(105, 108, 255, 0.8);
     background-color: var(--accent-color);
 }
+
 .menuBtn .closeLogo {
     display: none;
 }
@@ -224,9 +231,11 @@ h4 {
     justify-content: space-between;
     transition: all ease 0.3s;
 }
-.project:hover{
-        box-shadow: 0 0 15px 5px rgba(105, 108, 255, 0.8);
+
+.project:hover {
+    box-shadow: 0 0 15px 5px rgba(105, 108, 255, 0.8);
 }
+
 .project img {
     position: absolute;
     width: 80px;
@@ -335,9 +344,11 @@ h4 {
     font-weight: 100;
     transition: all ease 0.3s;
 }
-.certificates h3:hover{
+
+.certificates h3:hover {
     box-shadow: 0 0 15px 5px rgba(105, 108, 255, 0.8);
 }
+
 .certificates h3 a {
     width: 40px;
     height: 40px;
@@ -384,9 +395,11 @@ h4 {
     border-radius: 50%;
     transition: all ease 0.3s;
 }
+
 .about img:hover {
     box-shadow: 0 0 15px 5px rgba(105, 108, 255, 0.8);
 }
+
 /* Footer */
 
 footer {
@@ -394,31 +407,31 @@ footer {
     padding: 20px 0;
     text-align: center;
     font-family: 'Arial', sans-serif;
-  }
-  
-  .footer-container {
+}
+
+.footer-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-  }
-  
-  .footer-container p {
+}
+
+.footer-container p {
     margin: 0;
     font-size: 14px;
-  }
-  
-  .social-links {
+}
+
+.social-links {
     margin-top: 10px;
-  }
-  .social-links a {
+}
+
+.social-links a {
     color: #fff;
     margin: 0 10px;
     font-size: 20px;
     text-decoration: none;
     transition: color 0.3s ease;
-  }
-  
-  .social-links a:hover {
+}
+
+.social-links a:hover {
     color: #6366F1;
-  }
-  
+}
