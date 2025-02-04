@@ -395,3 +395,38 @@ h4 {
 .about img:hover {
     box-shadow: 0 0 15px 5px rgba(105, 108, 255, 0.8);
 }
+/* Footer */
+
+footer {
+    color: var(--text-color);
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-container p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .social-links {
+    margin-top: 10px;
+  }
+  .social-links a {
+    color: var(--text-color);
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: var(--accent-color);
+  }
+  
