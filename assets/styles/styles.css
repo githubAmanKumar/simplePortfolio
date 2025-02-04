@@ -217,7 +217,7 @@ h4 {
     font-size: 20px;
     margin-top: 40px;
     border-radius: 20px;
-    border: 2px solid var(--text-color);
+    border: 1px solid var(--text-color);
     position: relative;
     display: flex;
     align-items: center;
@@ -258,6 +258,14 @@ h4 {
 .project a:hover {
     background-color: var(--accent-color);
     scale: 1.2;
+}
+.more{
+    float: right;
+    background-color: white;
+    color: #272e39;
+    text-decoration: none;
+    margin: 10px;padding: 5px;
+    border-radius: 10px;
 }
 
 /* Skills */
